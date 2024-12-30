@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff6f61, #ff9068);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #ff473e, #ff6f61);
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+}
+#loveResult, #dedicatedMessage, #hiddenMessage {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #444;
+    font-weight: bold;
+    transition: opacity 0.5s ease-in-out;
+}
